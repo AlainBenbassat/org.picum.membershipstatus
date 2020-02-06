@@ -165,6 +165,7 @@ class CRM_Membershipstatus_Task_ChangeStatus extends CRM_Member_Form_Task {
         'contribution_source' => $source,
         'contribution_status_id' => 2,
         'payment_instrument' => 'EFT',
+        'is_pay_later' => 1,
         'sequential' => 1,
       ];
       $contrib = civicrm_api3('Contribution', 'create', $params);
