@@ -17,5 +17,9 @@
   <comments>Task to change the membership status of the selected memberships.</comments>
   <civix>
     <namespace>CRM/Membershipstatus</namespace>
+    <format>22.10.0</format>
   </civix>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+  </classloader>
 </extension>
